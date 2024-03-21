@@ -9,12 +9,12 @@
 export default {
     data() {
         return {
-            isLoggedIn: false // Initialize isLoggedIn
+            isLoggedIn: false
         };
     },
     methods: {
         handleClick() {
-            localStorage.setItem('isLoggedIn', 'true'); // Corrected storage key
+            localStorage.setItem('isLoggedIn', 'true');
             this.isLoggedIn = true;
             this.$router.push({ name: 'shop' });
         }
@@ -31,27 +31,27 @@ export default {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f8f8f8; /* Light background color */
+    background-color: #f8f8f8;
 }
 
 h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #333; /* Dark text color */
+    color: #333; 
 }
 
 .login-btn {
     padding: 15px 30px;
     font-size: 20px;
-    background-color: #ff6f61; /* Vibrant button color */
-    color: #fff; /* Text color */
+    background-color: #ff6f61; 
+    color: #fff; 
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    transition: background-color 0.3s ease;
 }
 
 .login-btn:hover {
-    background-color: #e94b3c; /* Darker shade of button color on hover */
+    background-color: #e94b3c; 
 }
 </style>

@@ -241,8 +241,8 @@ align-items: center;
 .checkout-btn{
   padding: 15px 30px;
     font-size: 20px;
-    background-color: #ff6f61; /* Vibrant button color */
-    color: #fff; /* Text color */
+    background-color: #ff6f61;
+    color: #fff;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -250,6 +250,6 @@ align-items: center;
 }
 
 .checkout-btn:hover {
-    background-color: #e94b3c; /* Darker shade of button color on hover */
+    background-color: #e94b3c;
 }
 </style>
